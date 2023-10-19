@@ -25,3 +25,6 @@ Criar a branch da demanda atual
 ```bash
 git checkout -b feature/<aluno>/recuperacao
 ```
+---
+### Atividades
+#### [Resumo das Atividades da Semana 11.](./doc/atividades_semana_11.md)
