@@ -8,5 +8,6 @@
         git checkout -b feature/<aluno>/<demanda-atual>
      ```
    - Crie um pacote com o seu nome;
-   - Entregar com um pull-request;
+   - Crie uma classe para o seu teste;
+   - Entregar com um pull-request para a branch de develop;
    - Obs: Pode ser qualquer teste, como no exemplo
