@@ -1,7 +1,9 @@
 # 2023.2.qa-basico-automacao
 
 ### Combinados de entrega
-- JAVA 11 - JDK (SE)
+- **JAVA 11 - JDK (SE)**
+- Apache **Maven** (Com variaveis de ambiente)
+- **IntelliJ IDEA** (Community Edition)
 - Git Cofigurado
 - Entregas de Atividades Via PR - Pull Request
 - Classroom somente para registro!
