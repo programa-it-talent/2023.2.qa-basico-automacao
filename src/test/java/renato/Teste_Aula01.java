@@ -10,5 +10,11 @@ public class Teste_Aula01 {
 
         boolean name = "Mick".contains("ck");
         Assertions.assertTrue(name);
+
+    }
+    @Test
+    public void teste02(){
+        int somandoValores = 5 + 5;
+        Assertions.assertEquals(somandoValores, 10);
     }
 }
