@@ -5,9 +5,14 @@ import org.junit.jupiter.api.Test;
 
 public class PrimeiraAtividade
 {
+
+    public void validationEmail(String inputEmail) {
+        String requirement = "@";
+        Assertions.assertTrue(inputEmail.contains(requirement));
+    }
+
     @Test
-    public void primeiroTeste() {
-        int result = 1+1;
-        Assertions.assertEquals(2, result);
+    public void test(){
+        this.validationEmail("arthurmottaguimraes@gmail.com");
     }
 }
