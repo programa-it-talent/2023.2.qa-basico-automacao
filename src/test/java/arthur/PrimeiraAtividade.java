@@ -12,7 +12,7 @@ public class PrimeiraAtividade
     }
 
     @Test
-    public void test(){
+    public void testValidEmail(){
         this.validationEmail("arthurmottaguimraes@gmail.com");
     }
 }
