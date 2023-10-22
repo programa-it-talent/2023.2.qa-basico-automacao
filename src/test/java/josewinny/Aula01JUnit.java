@@ -12,4 +12,9 @@ public class Aula01JUnit {
     public void testIsntEqualsToMyName() {
         Assertions.assertNotEquals(input,expected);
     }
+    @Test
+    @DisplayName("Cenário - contém parte do meu nome")
+    public void testContainsOnMyName(){
+        Assertions.assertTrue(expected.contains(input));
+    }
 }
