@@ -8,8 +8,8 @@ public class Aula01JUnit {
     public String input = "José";
     public String expected = "José Winny";
     @Test
-    @DisplayName("Cenário - não é o José Winny")
-    public void testIsntMyName() {
+    @DisplayName("Cenário - não é igual ao meu nome")
+    public void testIsntEqualsToMyName() {
         Assertions.assertNotEquals(input,expected);
     }
 }
