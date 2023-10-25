@@ -10,6 +10,7 @@ public class Aula02Selenium extends Hooks
     @DisplayName("Cenario: usando o navegador")
     public void teste02() throws InterruptedException
     {
+        driver.get("https://google.com.br");
         By pathInputPesquisa = By.id("APjFqb");
         driver.findElement(pathInputPesquisa).sendKeys("Tio mick estribado");
 
