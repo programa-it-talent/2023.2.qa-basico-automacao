@@ -9,7 +9,6 @@ public class Aula02Selenium extends Hooks
 {
     @Test
     @DisplayName("Login válido")
-
     public void teste02() throws InterruptedException
     {
         driver.get("https://the-internet.herokuapp.com/login");
