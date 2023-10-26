@@ -5,14 +5,11 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SegundaAtividade extends Hooks {
     By inputEmail = By.id("email");
     By inputPassword = By.id("password");
-
-    By confirmedLogin = By.xpath("//p[text()=\"Registrar ponto\"]");
+    By btnPoint = By.xpath("//p[text()=\"Registrar ponto\"]");
 
     public void verifyInitialPage() {
         driver.get("https://beta.pontogo.app/");
@@ -32,7 +29,7 @@ public class SegundaAtividade extends Hooks {
     }
 
     public void verifyLogin(String _textConfirm) throws InterruptedException {
-        String textReal = driver.findElement(confirmedLogin).getText();
+        String textReal = driver.findElement(btnPoint).getText();
         Assertions.assertTrue(textReal.contains(_textConfirm));
         Assertions.assertEquals(textReal, _textConfirm);
         System.out.println(textReal);
