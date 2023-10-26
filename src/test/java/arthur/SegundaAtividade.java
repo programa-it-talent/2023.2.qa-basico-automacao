@@ -31,11 +31,11 @@ public class SegundaAtividade extends Hooks {
         Thread.sleep(10000);
     }
 
-    public void verifyLogin(String _lastName) throws InterruptedException {
-        String text = driver.findElement(confirmedLogin).getText();
-        Assertions.assertTrue(text.contains(_lastName));
-        Assertions.assertEquals(text, _lastName);
-        System.out.println(text);
+    public void verifyLogin(String _textConfirm) throws InterruptedException {
+        String textReal = driver.findElement(confirmedLogin).getText();
+        Assertions.assertTrue(textReal.contains(_textConfirm));
+        Assertions.assertEquals(textReal, _textConfirm);
+        System.out.println(textReal);
         Thread.sleep(5000);
     }
 
