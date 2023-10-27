@@ -27,4 +27,4 @@ git checkout -b feature/<aluno>/recuperacao
 ```
 ---
 ### Atividades
-#### [Resumo das Atividades da Semana 11.](./doc/atividades_semana_11.md)
+#### [Resumo das Atividades da Semana 11 e 12.](./doc/atividades_semana_11_e_12.md)
