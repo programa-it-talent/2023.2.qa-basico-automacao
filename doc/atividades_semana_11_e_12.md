@@ -26,5 +26,8 @@ ___
    - Crie um pacote com o seu nome;
    - Crie uma classe para o seu teste;
    - Extenda a classe Hooks;
+   - A atividade deve conter:
+     - click()
+     - sendKeys()
    - Entregar com um pull-request para a branch de develop;
    - Obs: Pode ser qualquer automacao, como no exemplo;
