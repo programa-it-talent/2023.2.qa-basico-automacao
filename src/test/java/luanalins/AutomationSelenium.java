@@ -4,8 +4,7 @@ import mickhill.Hooks;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
+
 
 public class AutomationSelenium extends Hooks {
     @Test
